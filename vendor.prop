@@ -1,7 +1,5 @@
 # Board
 ro.display.series=Samsung A23
-ro.product.board=bengal
-ro.boot.dynamic_partitions=true
 
 # Crypto
 ro.crypto.metadata_init_delete_all_keys.enabled=false
