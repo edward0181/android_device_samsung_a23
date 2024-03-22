@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a23xq/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a23/recovery/root,recovery/root)
 
 PRODUCT_DEVICE := a23
 PRODUCT_NAME := twrp_a23
