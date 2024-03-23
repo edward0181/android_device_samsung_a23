@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/a23/device.mk)
@@ -24,7 +24,7 @@ $(call inherit-product, device/samsung/a23/device.mk)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a23/recovery/root,recovery/root)
 
 PRODUCT_DEVICE := a23
-PRODUCT_NAME := twrp_a23
+PRODUCT_NAME := pb_a23
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A235
 PRODUCT_MANUFACTURER := samsung
